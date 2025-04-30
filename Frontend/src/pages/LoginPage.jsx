@@ -34,7 +34,7 @@ const LoginPage = () => {
 
     // Simulated login API call
     setTimeout(() => {
-      if (formData.email === "soumyodeepdey2003@gmail.com" && formData.password === "1234") {
+      if (formData.email === "sdey@gmail.com" && formData.password === "1234") {
         setMessage({ type: "success", text: "Login successful!" });
         navigate("/mainland");
       } else {
